@@ -63,8 +63,16 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - pic/
-    - pic/C64_foto/
     - pic/Vic20_foto/
+    - pic/C64_foto/
+    - pic/C16_foto/
+    - pic/C128_foto/
+    - pic/Amiga1000_foto/
+    - pic/Amiga500_foto/
+    - pic/Amiga2000_foto/
+    - pic/Amiga3000_foto/
+    - pic/Amiga1200_foto/
+    - pic/Amiga600_foto/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
