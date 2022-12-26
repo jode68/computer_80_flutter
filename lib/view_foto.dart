@@ -23,9 +23,13 @@ class ViewFoto extends StatelessWidget {
                   shadowColor: Colors.blue,
                   child: Padding(
                     padding: const EdgeInsets.all(5),
-                    child: Image.asset(
-                      '${listaComputer80[index].pic}$indexFile.jpg',
-                      fit: BoxFit.cover,
+                    child: SizedBox(
+                      width: 400,
+                      height: 600,
+                      child: Image.asset(
+                        '${listaComputer80[index].pic}$indexFile.jpg',
+                        fit: BoxFit.scaleDown,
+                      ),
                     ),
                   ),
                 ),
