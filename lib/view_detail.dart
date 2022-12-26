@@ -25,16 +25,19 @@ class ViewDetail extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 ElevatedButton(
+                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.red)),
                     onPressed: () {
                       Navigator.pop(context, MaterialPageRoute(builder: ((context) => const ViewMain())));
                     },
                     child: const Text('<- Back')),
                 ElevatedButton(
+                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange)),
                     onPressed: (() {
                       Navigator.push(context, MaterialPageRoute(builder: ((context) => ViewWeb(index: index))));
                     }),
                     child: const Text('<- Link ->')),
                 ElevatedButton(
+                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.green)),
                     onPressed: (() {
                       Navigator.push(context, MaterialPageRoute(builder: ((context) => ViewFoto(index: index))));
                     }),

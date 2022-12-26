@@ -10,15 +10,11 @@ class ViewMain extends StatelessWidget {
     return ListView.builder(
       itemCount: listaComputer80.length,
       itemBuilder: ((context, index) {
-        return Padding(
-          padding: const EdgeInsets.all(10),
-          child: Card(
-            shadowColor: Colors.blue,
-            elevation: 10,
-            child: ListTile(
+        return Column(
+          children: [
+            ListTile(
               title: Text(listaComputer80[index].nome),
               subtitle: Text(listaComputer80[index].anno),
-              leading: const Icon(Icons.computer),
               trailing: const Text('->', style: TextStyle(color: Colors.grey)),
               onTap: (() {
                 Navigator.push(
@@ -28,7 +24,10 @@ class ViewMain extends StatelessWidget {
                     ));
               }),
             ),
-          ),
+            const Divider(
+              color: Colors.black,
+            ),
+          ],
         );
       }),
     );

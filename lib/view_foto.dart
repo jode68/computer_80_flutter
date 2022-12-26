@@ -25,7 +25,7 @@ class ViewFoto extends StatelessWidget {
                     padding: const EdgeInsets.all(5),
                     child: SizedBox(
                       width: 400,
-                      height: 600,
+                      height: 500,
                       child: Image.asset(
                         '${listaComputer80[index].pic}$indexFile.jpg',
                         fit: BoxFit.scaleDown,
