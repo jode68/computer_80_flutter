@@ -1,3 +1,4 @@
+import 'package:column_scroll_view/column_scroll_view.dart';
 import 'package:flutter/material.dart';
 import 'lista_dati.dart';
 
@@ -15,25 +16,27 @@ class ViewFoto extends StatelessWidget {
         itemCount: listaComputer80[index].npic,
         itemBuilder: ((context, indexFile) {
           return ListTile(
-            title: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Card(
-                  elevation: 20,
-                  shadowColor: Colors.blue,
-                  child: Padding(
-                    padding: const EdgeInsets.all(5),
-                    child: SizedBox(
-                      width: 400,
-                      height: 500,
-                      child: Image.asset(
-                        '${listaComputer80[index].pic}$indexFile.jpg',
-                        fit: BoxFit.scaleDown,
+            title: ColumnScrollView(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Card(
+                    elevation: 20,
+                    shadowColor: Colors.blue,
+                    child: Padding(
+                      padding: const EdgeInsets.all(5),
+                      child: SizedBox(
+                        width: 400,
+                        height: 500,
+                        child: Image.asset(
+                          '${listaComputer80[index].pic}$indexFile.jpg',
+                          fit: BoxFit.scaleDown,
+                        ),
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           );
         }),
