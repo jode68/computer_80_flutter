@@ -13,11 +13,11 @@ final listaComputer80 = [
   ListaModello('Commodore Vic20', '1981', './pic/Vic20.jpg', 'https://it.wikipedia.org/wiki/Commodore_VIC-20',
       './pic/Vic20_foto/Vic20_', 20),
   ListaModello(
-      'Commodore 64', '1982', './pic/C64.jpg', 'https://it.wikipedia.org/wiki/Commodore_64', './pic/C64_foto/C64_', 20),
+      'Commodore 64', '1982', './pic/C64.jpg', 'https://it.wikipedia.org/wiki/Commodore_64', './pic/C64_foto/C64_', 10),
   ListaModello(
       'Commodore 16', '1984', './pic/C16.jpg', 'https://it.wikipedia.org/wiki/Commodore_16', './pic/C16_foto/C16_', 10),
   ListaModello('Commodore 128', '1985', './pic/C128.jpg', 'https://it.wikipedia.org/wiki/Commodore_128',
-      './pic/C128_foto/C128_', 20),
+      './pic/C128_foto/C128_', 10),
   ListaModello('Commodore Amiga 1000', '1985', './pic/Amiga1000.jpg', 'https://it.wikipedia.org/wiki/Amiga_1000',
       './pic/Amiga1000_foto/Amiga1000_', 10),
   ListaModello('Commodore Amiga 500', '1987', './pic/Amiga500.jpg', 'https://it.wikipedia.org/wiki/Amiga_500',
