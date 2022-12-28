@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:computer_80/lista_dati.dart';
 import 'package:carousel_images/carousel_images.dart';
 import 'package:column_scroll_view/column_scroll_view.dart';
-import 'package:computer_80/lista_dati.dart';
-import 'package:flutter/material.dart';
 
 class ViewFoto extends StatelessWidget {
   const ViewFoto({super.key, required this.index});

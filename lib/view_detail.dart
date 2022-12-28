@@ -1,9 +1,9 @@
-import 'package:column_scroll_view/column_scroll_view.dart';
+import 'package:flutter/material.dart';
 import 'package:computer_80/lista_dati.dart';
 import 'package:computer_80/view_foto.dart';
 import 'package:computer_80/view_main.dart';
 import 'package:computer_80/view_web_page.dart';
-import 'package:flutter/material.dart';
+import 'package:column_scroll_view/column_scroll_view.dart';
 
 class ViewDetail extends StatelessWidget {
   const ViewDetail({super.key, required this.index});

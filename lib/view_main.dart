@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:computer_80/lista_dati.dart';
 import 'package:computer_80/view_detail.dart';
-import 'package:flutter/material.dart';
 
 class ViewMain extends StatelessWidget {
   const ViewMain({super.key});
