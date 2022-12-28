@@ -1,4 +1,3 @@
-import 'package:computer_80/lista_dati.dart';
 import 'package:computer_80/view_main.dart';
 import 'package:flutter/material.dart';
 
@@ -38,13 +37,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: const ViewMain(),
     );
-  }
-
-  List<String> provaLista() {
-    List<String> lista = [];
-    for (var i = 0; i < listaComputer80[0].npic; i++) {
-      lista.add('${listaComputer80[0].pic}$i');
-    }
-    return lista;
   }
 }
