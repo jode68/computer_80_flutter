@@ -15,12 +15,12 @@ class ViewFoto extends StatelessWidget {
         ),
         body: ColumnScrollView(
             child: CarouselImages(
-          listImages: provaLista(index),
+          listImages: listafoto(index),
           height: 500,
         )));
   }
 
-  List<String> provaLista(index) {
+  List<String> listafoto(index) {
     List<String> lista = [];
     for (var i = 0; i < listaComputer80[index].npic; i++) {
       lista.add('${listaComputer80[index].pic}$i.jpg');
